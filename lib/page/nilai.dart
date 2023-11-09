@@ -144,7 +144,7 @@ class _NilaiState extends State<Nilai> {
               controller: controllerHasil,
               readOnly: true,
               decoration: InputDecoration(
-                hintText: 'Nilai Rata-rata',
+                hintText: 'Nilai Akhir',
                 enabledBorder: const OutlineInputBorder(
                   borderSide: BorderSide(color: Colors.black),
                 ),
@@ -164,25 +164,25 @@ class _NilaiState extends State<Nilai> {
                 double hasil2 = double.parse(controllerHasil.text);
                 if (hasil2 > 0 && hasil2 <= 39.99) {
                   print(controllerIndex.text =
-                      "Nilai rata-rata anda $hasil2. Ini Berarti Nilai Index Anda E");
+                      "Nilai akhir anda $hasil2. Ini Berarti Nilai Index Anda E");
                 } else if (hasil2 > 40 && hasil2 <= 49.99) {
                   print(controllerIndex.text =
-                      "Nilai rata-rata anda $hasil2. Ini Berarti Nilai Index Anda D");
+                      "Nilai akhir anda $hasil2. Ini Berarti Nilai Index Anda D");
                 } else if (hasil2 > 50 && hasil2 <= 59.99) {
                   print(controllerIndex.text =
-                      "Nilai rata-rata anda $hasil2. Ini Berarti Nilai Index Anda C");
+                      "Nilai akhir anda $hasil2. Ini Berarti Nilai Index Anda C");
                 } else if (hasil2 > 60 && hasil2 <= 64.99) {
                   print(controllerIndex.text =
-                      "Nilai rata-rata anda $hasil2. Ini Berarti Nilai Index Anda BC");
+                      "Nilai akhir anda $hasil2. Ini Berarti Nilai Index Anda BC");
                 } else if (hasil2 > 65 && hasil2 <= 72.99) {
                   print(controllerIndex.text =
-                      "Nilai rata-rata anda $hasil2. Ini Berarti Nilai Index Anda B");
+                      "Nilai akhir anda $hasil2. Ini Berarti Nilai Index Anda B");
                 } else if (hasil2 > 73 && hasil2 <= 78.99) {
                   print(controllerIndex.text =
-                      "Nilai rata-rata anda $hasil2. Ini Berarti Nilai Index Anda AB");
+                      "Nilai akhir anda $hasil2. Ini Berarti Nilai Index Anda AB");
                 } else if (hasil2 > 80 && hasil2 <= 100) {
                   print(controllerIndex.text =
-                      "Nilai rata-rata anda $hasil2. Ini Berarti Nilai Index Anda A");
+                      "Nilai akhir anda $hasil2. Ini Berarti Nilai Index Anda A");
                 }
                 setState(() {
                   _Text = controllerIndex.text;
