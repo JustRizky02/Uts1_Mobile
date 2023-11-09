@@ -126,7 +126,7 @@ class _NilaiState extends State<Nilai> {
               ),
               child: const Center(
                 child: Text(
-                  'Hitung Rata-Rata',
+                  'Hitung Nilai',
                   style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
